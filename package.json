@@ -1,0 +1,16 @@
+{
+  "name": "buntypescriptlings",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun runner.ts watch",
+    "watch": "bun runner.ts watch",
+    "verify": "bun runner.ts verify",
+    "list": "bun runner.ts list",
+    "verify:solutions": "bun runner.ts verify solutions"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^7.0.2"
+  }
+}
